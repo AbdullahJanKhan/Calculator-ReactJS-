@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Calculator from './calculatorComponent';
+// import Calculator from './calculatorComponent';
 import reportWebVitals from './reportWebVitals';
-
+import LoginSample from './formSample';
 ReactDOM.render(
   <React.StrictMode>
-    <Calculator />
+    <LoginSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
